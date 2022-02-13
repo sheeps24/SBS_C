@@ -12,7 +12,7 @@ int main(void) {
     // const      : 상수를 선언하는 키워드
     //              상수는 선언과 동시에 초기화
     //               값을 바꿀 수 없다.
-    // tax_rate = 0.20;   (에러발생)
+    // tax_rate = 0.20;   (에러발생)   ****
 
     income = 1000;
     tax = income * tax_rate;        // 1000원에 대한 12%
