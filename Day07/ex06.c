@@ -7,8 +7,8 @@ int main(void){
     int sum = 0;
     for (int i = 1; i <= 20; i++){
 
-        // 홀수인 경우 넘어감.
-        if(i % 2 == 1 )
+        // 홀수인 경우 처음으로감.
+        if( i % 2 == 1 )
             continue;
 
         sum += i;
