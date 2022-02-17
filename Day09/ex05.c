@@ -5,8 +5,8 @@
 #include <stdio.h>
 
 // 함수 선언
-void printf_char( char ch, int count );
-
+void printf_char( char ch, int count );               // 안녕이란 글을 쓰고 싶으면 char가 아닌 int로 !
+                                                      // char은 1byte로 알파벳이 그럼함.  + 한글은 4byte 이상 
 
 int main(void) {
 

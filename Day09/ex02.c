@@ -14,9 +14,11 @@ int Y = 300;
 // 지역변수
     // : 함수 내부에 선언한 변수
     // - 함수 내부에서만 접근 가능, 외부에서는 접근 불가
-void sample(){
-    printf(" X : %d\n", X);
-    printf(" Y : %d\n", Y);
+void sample(void){                  // ()속 void의 유무로 바뀌는 것은? 
+    int x = 200;
+    int y = 300;
+    printf(" x : %d\n", x);
+    printf(" y : %d\n", y);
 
 }
 

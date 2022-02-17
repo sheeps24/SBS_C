@@ -8,7 +8,7 @@ void coffe( int water, int coffe, int temp ){
 
     water *= 2;
     coffe -= 5;
-    static int cup1 = 0;
+    static int cup1 = 0;                 //static 없으면 지속 저장되지 않음
     int result = water + coffe + temp;
 
     cup1++;

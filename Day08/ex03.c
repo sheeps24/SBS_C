@@ -18,7 +18,7 @@ int main(void) {
 
     // 널문자
     // \0     : 문자열의 마지막에 삽입되는 문자
-    // 의미   : 데이터 없음, 믄자열의 끝을 구분
+    // 의미   : 데이터 없음, 문자열의 끝을 구분
 
     char mind[30] = "I love Programming!";
     printf("%s\n", mind);
