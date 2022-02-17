@@ -13,8 +13,8 @@ int main(void) {
     printf("문자열의 내용 : %s\n", greet);
 
     // sizeof() 함수
-    // : 해당 뱐수의 byte 단위의 크기를 반환
-    printf("문자열의 크기 : %d\n", sizeof(greet));
+    // : 해당 변수의 byte 단위의 크기를 반환
+    printf("문자열의 크기 : %d\n", sizeof(greet));    // char의 한 글자당 바이트는 1 byte + 널(\0)
 
     // 널문자
     // \0     : 문자열의 마지막에 삽입되는 문자
