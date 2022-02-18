@@ -26,8 +26,8 @@ int main(void) {
    //포인터 변수 선언
    int *ptr = &num;
 
-   printf(" ptr : %p\n", ptr);    //주소값
-   printf(" ptr : %d\n", *ptr);   // 포인타로 접근한 값
+   printf(" ptr : %p\n", ptr);    // 주소값              --> ptr = num의 주소값
+   printf(" ptr : %d\n", *ptr);   // 포인터로 접근한 값   --> *ptr = num
 
 
     return 0;
