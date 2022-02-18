@@ -26,4 +26,8 @@ int main(void) {
     printf("a : %d, b : %d\n", a,b);
     
     return 0;
+
 }
+
+
+// pyton의 self와 c의 static의 차이 물어보기.
