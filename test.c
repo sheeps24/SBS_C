@@ -2,11 +2,10 @@
 
 
 
-    #include <stdio.h>
+#include <stdio.h>
 
 int main(void) {
-
-    int a[8];
+        int a[8];
     int b[5];
     int c[5];
     
@@ -27,6 +26,8 @@ int main(void) {
         printf("%d\n", c[i]);
        
     }
+
+
 
 
     return 0;
