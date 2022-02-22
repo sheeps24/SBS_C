@@ -16,7 +16,7 @@ int main(void) {
 
   ch1 = getchar();               //'A'
   ch2 = getchar();               // [ENTER]
-  // 엔터 또한 하나의 문자로 처리되어 입력된다 .
+  // 엔터 또한 하나의 문자로 처리되어 입력된다 . 아무것도 안쓰고 엔터 쳐도 입력이된다. 
 
   putchar(ch1);
   putchar(ch2);

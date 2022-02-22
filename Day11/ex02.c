@@ -15,7 +15,7 @@ int main(void) {
    int n1 = 3, n2 = 6, n3 = 9;
 
    // 포인터 변수 선언 및 초기화
-   int *ptr1 = &n1;
+   int *ptr1 = &n1;     //   or   int *ptr1;  ptr1 = &n1; 
    int *ptr2 = &n2;
    int *ptr3 = &n3;
 
