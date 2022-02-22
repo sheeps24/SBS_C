@@ -34,7 +34,7 @@ int main(void) {
 
 // 최댓값을 구하는 함수
 // 포인터 변수 : 주솟값을 저장하는 변수
-int max(int *arr){
+int max(arr){
     int result = 0;
 
     result = arr[0];
