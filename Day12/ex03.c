@@ -7,13 +7,13 @@
 int main(void) {
 
     
-    int max(int *arr);
+    int max(arr);
     
     int arr[5];
     int result = 0;
 
     printf("정수 5개 입력 : ");
-    for (int i = 0; i<N; i++){
+    for (int i = 0; i< N; i++){
         // 배열애 입력
         scanf("%d", &arr[i]);
     }
@@ -34,14 +34,14 @@ int main(void) {
 
 // 최댓값을 구하는 함수
 // 포인터 변수 : 주솟값을 저장하는 변수
-int max(arr){
+int max(int *arr){
     int result = 0;
 
     result = arr[0];
     for (int i = 0; i<N; i++){
         // arr[i] : 1 2 3 4 5
         if ( result < arr[i]){
-            result = arr[i]
+            result = arr[i];
         }
 
     }  
