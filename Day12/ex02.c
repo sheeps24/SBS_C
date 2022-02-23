@@ -10,20 +10,20 @@ void func1(void){
 }
 
 // 2. 반환값 0 , 매개변수 X
-void func2(void){
+int func2(void){
     //반환값이 있을때, 
     // 반드시 return 작성
-    printf("반환값 0 , 매개변수 X");
+    printf("반환값 0 , 매개변수 X\n");
     return 100;
 }
 // 3. 반환값 X , 매개변수 0
 void func3(int a, int b){
     printf("반환값 X , 매개변수 0\n");
-    printf(" a + b = %d", a +b );
+    printf("a + b = %d", a +b );
 }
 
 // 4. 반환값 0 , 매개변수 0
-void func4(int a, int b){
+int func4(int a, int b){
     int sum = a + b;
     printf("반환값 0 , 매개변수 0\n");
     return sum;
@@ -44,11 +44,11 @@ int main(void) {
     func3(10,20);
 
     // 4. 
-    int result2 = func4();
+    int result2 = func4(3,4);
 
 
-    printf("%d",result1);
-    printf("%d",result2);
+    printf("%d\n",result1);
+    printf("%d\n",result2);
 
 
 
