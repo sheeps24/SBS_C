@@ -9,10 +9,10 @@
         : 포인터 변수가 가리키고 있는 주소값이 구조체인 포인터
 */
 
-struct person {
+ typedef struct   {
     char name[30];
     int age;
-};
+} person;
 
 
 int main(void) {
